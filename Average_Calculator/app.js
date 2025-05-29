@@ -7,8 +7,8 @@ const bodyParser = require('body-parser');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+// app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
 const WS = 10;
@@ -47,6 +47,7 @@ app.get('/numbers/:id', async (req, res) => {
 
         clearTimeout(timeout);
         numbers = response.data.numbers || [];
+        console.log(numbers)
     } catch (error) {
         console.error("Error fetching data:", error.message || error);
         numbers = [];
