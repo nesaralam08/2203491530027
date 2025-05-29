@@ -52,12 +52,10 @@ node app.js / npm start
 GET http://localhost:4000/numbers/:id
 ```
 - Use any of the following values for :id:
-| ID | Description       |
-| -- | ----------------- |
-| p  | Prime numbers     |
-| f  | Fibonacci numbers |
-| e  | Even numbers      |
-| r  | Random numbers    |
+- `p` → Prime Numbers
+- `f` → Fibonacci Numbers
+- `e` → Even Numbers
+- `r` → Random Numbers
 
 ### 6. Sample Response
 ```bash
