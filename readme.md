@@ -31,5 +31,5 @@ This is a Node.js and Express-based microservice that fetches numbers (primes, F
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/average-microservice.git
-cd average-microservice
+git clone https://github.com/nesaralam08/2203491530027.git
+cd Average_Calculator
